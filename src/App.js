@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
+import RefsDemo from './components/RefsDemo';
 // import Inline from './components/Inline';
 // import NameList from './components/NameList';
 // import Stylesheet from './components/Stylesheet';
@@ -16,19 +17,17 @@
 // import './appStyles.css';
 // import styles from './appStyles.module.css';
 // import Form from "./components/Form";
-
-import ParentComp from "./components/ParentComp";
-
+// import ParentComp from "./components/ParentComp";
 // import FragmentDemo from "./components/FragmentDemo";
 // import Table from "./components/Table";
-
 // import LifeCycleA from "./components/LifeCycleA";
 
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <RefsDemo />
+      {/* <ParentComp /> */}
       {/* <Table/> */}
       {/* <FragmentDemo /> */}
       {/* <LifeCycleA /> */}
