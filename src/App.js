@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import RefsDemo from './components/RefsDemo';
+import DocTitleOne from './components/DocTitleOne';
+import DocTitleTwo from './components/DocTitleTwo';
+// import FocusInput from './components/FocusInput';
+// import RefsDemo from './components/RefsDemo';
 // import Inline from './components/Inline';
 // import NameList from './components/NameList';
 // import Stylesheet from './components/Stylesheet';
@@ -26,7 +29,10 @@ import RefsDemo from './components/RefsDemo';
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      <DocTitleOne/>
+      <DocTitleTwo/>
+      {/* <FocusInput/>  */}
+      {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
       {/* <Table/> */}
       {/* <FragmentDemo /> */}
