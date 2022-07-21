@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import DocTitleOne from './components/DocTitleOne';
-import DocTitleTwo from './components/DocTitleTwo';
+import CounterOne from './components/CounterOne';
+import CounterTwo from './components/CounterTwo';
+// import DocTitleOne from './components/DocTitleOne';
+// import DocTitleTwo from './components/DocTitleTwo';
 // import FocusInput from './components/FocusInput';
 // import RefsDemo from './components/RefsDemo';
 // import Inline from './components/Inline';
@@ -29,8 +31,10 @@ import DocTitleTwo from './components/DocTitleTwo';
 function App() {
   return (
     <div className="App">
-      <DocTitleOne/>
-      <DocTitleTwo/>
+      <CounterOne/>
+      <CounterTwo/>
+      {/* <DocTitleOne/> */}
+      {/* <DocTitleTwo/> */}
       {/* <FocusInput/>  */}
       {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
