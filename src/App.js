@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import UseState from './components-2/UseState/UseState';
+import ArrayUseState from './components-2/Immutable State/ArrayUseState';
+import ObjectUseState from './components-2/Immutable State/ObjectUseState';
+// import UseReducer from './components-2/UseReducer/UseReducer';
+// import UseState from './components-2/UseState/UseState';
 // import UserForm from './components/UserForm';
 // import CounterOne from './components/CounterOne';
 // import CounterTwo from './components/CounterTwo';
@@ -33,7 +36,10 @@ import UseState from './components-2/UseState/UseState';
 function App() {
   return (
     <div className="App">
-      <UseState />
+      <ArrayUseState/>
+      <ObjectUseState/>
+      {/* <UseReducer/> */}
+      {/* <UseState /> */}
       {/* --------------------------- */}
       {/* <UserForm/> */}
       {/* <CounterOne/> */}
